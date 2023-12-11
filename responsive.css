@@ -1,0 +1,43 @@
+@media screen and (max-width: 1144px) {
+  nav{
+    max-width: 90vw;
+  }
+   .first{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   }
+    .first div> :first-child{
+        font-weight: 900;
+        font-size: 35px ;
+    }
+
+    .secImg img{
+        width: 300px ;
+    }
+    
+    .secImg video{
+        width: 300px;
+        top: 36px ;
+    }
+    footer{
+        
+        grid-template-columns: 1fr 1fr  ;
+    }
+
+    .qna-section h2 {
+        font-weight: 900;
+        font-size: 35px;
+        text-align: center;
+    }
+    .qna-section .qna-box {
+        width: 70vw;
+        font-weight: 400;
+        font-size: 20px;
+        padding: 20px;
+    }
+    .qna-section h3{
+        text-align: center;
+    }
+  }
